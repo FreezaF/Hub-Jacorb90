@@ -17,6 +17,7 @@
       justify-content: center;
       height: 100vh;
       padding: 20px;
+      position: relative;
     }
     
     .game-links {
@@ -42,6 +43,24 @@
     
     .game-link:hover {
       background-color: rgba(138, 43, 226, 1);
+    }
+    
+    .hub-link {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: rgba(0, 198, 255, 0.8);
+      border: 2px solid #0072ff;
+      border-radius: 10px;
+      color: #fff;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      font-size: 16px;
+    }
+    
+    .hub-link:hover {
+      background-color: rgba(0, 198, 255, 1);
     }
     
     header {
@@ -72,6 +91,7 @@
       <a class="game-link" href="https://freezaf.github.io/Incremenergy" target="_blank">Incremenergy</a>
       <a class="game-link" href="https://freezaf.github.io/Escape-Vantablack" target="_blank">Escape Vantablack</a>
     </div>
+    <a class="hub-link" href="https://freezaf.github.io/Hub/" target="_blank">Visit Hub</a>
   </main>
   <script src="script.js"></script>
 </body>
